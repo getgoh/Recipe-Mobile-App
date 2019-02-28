@@ -1,0 +1,15 @@
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\bin\Debug\netstandard2.0\Xapp.deps.json
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\bin\Debug\netstandard2.0\Xapp.dll
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\bin\Debug\netstandard2.0\Xapp.pdb
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\obj\Debug\netstandard2.0\Views\RecipeAddNew.xaml.g.cs
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\obj\Debug\netstandard2.0\Views\RecipeListPage.xaml.g.cs
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\obj\Debug\netstandard2.0\Views\RecipeSummaryPage.xaml.g.cs
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\obj\Debug\netstandard2.0\Xapp.csproj.CoreCompileInputs.cache
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\obj\Debug\netstandard2.0\Xapp.AssemblyInfoInputs.cache
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\obj\Debug\netstandard2.0\Xapp.AssemblyInfo.cs
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\obj\Debug\netstandard2.0\Xapp.dll
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\obj\Debug\netstandard2.0\Xapp.pdb
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp\Xapp\obj\Debug\netstandard2.0\Xapp.csprojAssemblyReference.cache

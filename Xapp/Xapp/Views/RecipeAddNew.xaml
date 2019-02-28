@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xapp.Views.RecipeAddNew">
+    <ContentPage.Content>
+		<ScrollView>
+			<StackLayout Spacing="10" Padding="10">
+				<Label FontSize="Large" Text="Add New Recipe"/>
+			
+				<Label Text="Name" />
+				<Entry Text="{Binding Name}" />
+
+				<Label Text="Description" />
+				<Entry Text="{Binding Description}" />
+
+				<Label Text="Preparation Time (minutes)" />
+				<Entry Text="{Binding PrepTime}" />
+
+				<Label Text="Cooking Time (minutes)" />
+				<Entry Text="{Binding CookingTime}" />
+
+				<Button Text="Submit" Command="{Binding OnSubmitClickCommand}" />
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

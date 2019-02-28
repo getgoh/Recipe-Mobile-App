@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Xapp"
+             x:Class="Xapp.MainPage">
+
+    <StackLayout BackgroundColor="Red">
+		
+        <!-- Place new controls here -->
+        <Label BackgroundColor="Accent" Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+		<Button 
+			Text="Click me" 
+			VerticalOptions="Start"/>
+	</StackLayout>
+
+</ContentPage>
