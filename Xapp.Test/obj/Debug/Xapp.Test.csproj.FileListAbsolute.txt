@@ -1,0 +1,14 @@
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp.Test\bin\Debug\Xapp.Test.dll
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp.Test\bin\Debug\Xapp.Test.pdb
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp.Test\obj\Debug\Xapp.Test.csprojAssemblyReference.cache
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp.Test\obj\Debug\Xapp.Test.csproj.CoreCompileInputs.cache
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp.Test\obj\Debug\Xapp.Test.csproj.CopyComplete
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp.Test\obj\Debug\Xapp.Test.dll
+D:\Get\Xamarin Forms\XPlatform\Xapp\Xapp.Test\obj\Debug\Xapp.Test.pdb

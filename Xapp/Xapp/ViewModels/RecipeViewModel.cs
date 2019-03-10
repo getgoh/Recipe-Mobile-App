@@ -24,7 +24,7 @@ namespace Xapp.ViewModels
         public RecipeViewModel(Recipe recipe)
         {
             _recipe = recipe;
-            Directions = new ObservableCollection<string>(_recipe.Directions);
+            Directions = new ObservableCollection<Directions>(_recipe.Directions);
             OnSubmitClickCommand = new Command(OnSubmitClick);
         }
 
@@ -34,7 +34,21 @@ namespace Xapp.ViewModels
             Application.Current.MainPage.DisplayAlert("DIsplay title", "I came from the ViewModel!", "Cancel button?");
         }
 
-        public ObservableCollection<string> Directions { get; set; }
+        public ObservableCollection<Directions> Directions
+        {
+            get
+            {
+                return _recipe != null ? _recipe.Directions : null;
+            }
+            set
+            {
+                if (_recipe != null)
+                {
+                    _recipe.Directions = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
 
         public string Name
         {

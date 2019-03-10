@@ -3,11 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Xapp.Views.RecipeListPage"
 			 Title="Recipes">
-	<ListView x:Name="recipeList" ItemsSource="{Binding Recipes}" ItemTapped="OnItemSelected">
-		<ListView.ItemTemplate>
-			<DataTemplate>
-				<TextCell Text="{Binding Name}"/>				
-			</DataTemplate>
-		</ListView.ItemTemplate>
-	</ListView>
+	<StackLayout>
+
+		<Label Text="Getting Recipes.." IsVisible="{Binding IsLoading}" />
+	
+		<ListView IsVisible="{Binding !IsLoading}" x:Name="recipeList" ItemsSource="{Binding Recipes}" ItemTapped="OnItemSelected">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<TextCell Text="{Binding Name}"/>				
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+		
+	</StackLayout>
 </ContentPage>

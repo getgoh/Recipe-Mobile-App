@@ -30,7 +30,9 @@ namespace Xapp
 
             //MainPage = new NavigationPage(new RecipeListPage());
 
-            MainPage = new RecipeAddNew();
+            MainPage = new NavigationPage(new Home());
+
+            //MainPage = new RecipeAddNew();
         }
 
         protected override void OnStart()

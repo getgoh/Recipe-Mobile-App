@@ -15,7 +15,8 @@ namespace Xapp.Helpers
         {
             string authUserName = "user";
             string authPassword = "password";
-            string url = "http://127.0.0.1:5000";
+            //string url = "http://127.0.0.1:5000";
+            string url = "https://get-node.herokuapp.com/";
 
             // If you do not have basic authentication, you may skip these lines
             //var authToken = Encoding.ASCII.GetBytes($"{authUserName}:{authPassword}");

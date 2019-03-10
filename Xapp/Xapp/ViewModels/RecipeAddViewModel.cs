@@ -30,12 +30,12 @@ namespace Xapp.ViewModels
             newRecipe += "\nCooktime: " + recipe.CookingTime;
             //await Application.Current.MainPage.DisplayAlert("Your new Recipe", newRecipe, "Okay button?");
 
-            List<string> dirs = new List<string>();
-            dirs.Add("1. This is 1");
-            dirs.Add("2. This is 2");
-            dirs.Add("3. This is 3");
+            //List<string> dirs = new List<string>();
+            //dirs.Add("1. This is 1");
+            //dirs.Add("2. This is 2");
+            //dirs.Add("3. This is 3");
 
-            recipe.Directions = dirs;
+            //recipe.Directions = dirs;
 
             // poll API to add new
             await MyHttp<Recipe>.Post(recipe);

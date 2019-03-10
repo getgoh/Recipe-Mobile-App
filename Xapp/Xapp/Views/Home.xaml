@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xapp.Views.Home">
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<Style x:Key="menuButton" TargetType="Button">
+				
+			</Style>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+    <ContentPage.Content>
+		<Grid Padding="8" BackgroundColor="AliceBlue">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="150" />
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+			</Grid.ColumnDefinitions>
+
+			<Button FontFamily="Arial" CornerRadius="8" Clicked="btnRecipeList_Clicked" BackgroundColor="Red" Text="Recipe List" Grid.Row="0" Grid.Column="0" />
+			<Button CornerRadius="8" Clicked="btnAddRecipe_Clicked" BackgroundColor="DimGray" Text="Add New Recipe" Grid.Row="0" Grid.Column="1" />
+			<!--<Button BackgroundColor="Green" Text="Bottom Left" Grid.Row="1" Grid.Column="0" />
+			<Button BackgroundColor="Yellow" Text="Bottom Right" Grid.Row="1" Grid.Column="1" />-->
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>

@@ -17,7 +17,13 @@
 				<Label Text="Total Cook Time" TextColor="Red"/>
 				<Label Text="{Binding CookTime}"/>
 				<Label Text="Directions" TextColor="Red"/>
-				<!--<ListView ItemsSource="{Binding Directions}" />-->
+				<ListView ItemsSource="{Binding Directions}">
+					<ListView.ItemTemplate>
+						<DataTemplate>
+							<EntryCell Text="{Binding directions}" />
+						</DataTemplate>
+					</ListView.ItemTemplate>
+				</ListView>
 				<Button Text="Submit" Command="{Binding OnSubmitClickCommand}" />
 			
 			</StackLayout>

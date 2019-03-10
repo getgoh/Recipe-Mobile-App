@@ -4,16 +4,54 @@ using System.Collections.ObjectModel;
 using System.Text;
 using Xamarin.Forms;
 using Xapp.Models;
+using Xapp.Helpers;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace Xapp.ViewModels
 {
-    public class RecipeListViewModel
+    public class RecipeListViewModel : INotifyPropertyChanged
     {
-        public ObservableCollection<Recipe> Recipes { get; set; }
+        private ObservableCollection<Recipe> _Recipes;
+        private bool _isLoading;
+
+        public ObservableCollection<Recipe> Recipes {
+            get
+            {
+                return _Recipes;
+            }
+            set
+            {
+                _Recipes = value; OnPropertyChanged();
+            }
+        }
+
+        public bool IsLoading
+        {
+            get { return _isLoading; }
+            set
+            {
+                _isLoading = value;
+                OnPropertyChanged();
+            }
+        }
+        
+        public async void GetRecipes()
+        {
+            var remoteRecipes = await MyHttp<List<Recipe>>.Get("recipe");
+            Console.WriteLine(remoteRecipes);
+            Recipes = JsonConvert.DeserializeObject<ObservableCollection<Recipe>>(remoteRecipes);
+            IsLoading = false;
+        }
 
         public RecipeListViewModel()
         {
             Recipes = new ObservableCollection<Recipe>();
+            IsLoading = true;
+
+            GetRecipes();
 
             //Recipes.Add(new Recipe
             //{
@@ -57,6 +95,12 @@ namespace Xapp.ViewModels
             //});
         }
 
-        
+        public event PropertyChangedEventHandler PropertyChanged;
+        public void OnPropertyChanged([CallerMemberName] string name = "")
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        }
+
+
     }
 }
